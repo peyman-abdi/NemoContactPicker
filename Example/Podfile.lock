@@ -9,6 +9,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  NemoContactPicker: e1cea241604a03600778cd81dc0a401eff010684
+  NemoContactPicker: 6b4a783cc003c7d54006bf0b50a1e60ad0bd22c9
 
 COCOAPODS: 0.39.0

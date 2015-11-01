@@ -17,8 +17,8 @@ s.summary          = "A simple contact picker in a table view for iOS"
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!  
 s.description      = <<-DESC
+A simple contact picker with UITableViewController and customizable appearance with multiselect
 DESC
-This is a simple contact picker with TableViewController
 
 s.homepage         = "https://github.com/peyman-abdi/NemoContactPicker"
 # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"

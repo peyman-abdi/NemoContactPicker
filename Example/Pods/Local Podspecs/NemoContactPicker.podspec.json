@@ -2,7 +2,7 @@
   "name": "NemoContactPicker",
   "version": "0.1.0",
   "summary": "A simple contact picker in a table view for iOS",
-  "description": "",
+  "description": "A simple contact picker in a table view for iOS",
   "homepage": "https://github.com/peyman-abdi/NemoContactPicker",
   "license": "MIT",
   "authors": {
