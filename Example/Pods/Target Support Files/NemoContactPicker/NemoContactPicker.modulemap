@@ -1,0 +1,6 @@
+framework module NemoContactPicker {
+  umbrella header "NemoContactPicker-umbrella.h"
+
+  export *
+  module * { export * }
+}

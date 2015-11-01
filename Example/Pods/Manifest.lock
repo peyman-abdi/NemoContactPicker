@@ -1,0 +1,14 @@
+PODS:
+  - NemoContactPicker (0.1.0)
+
+DEPENDENCIES:
+  - NemoContactPicker (from `../`)
+
+EXTERNAL SOURCES:
+  NemoContactPicker:
+    :path: ../
+
+SPEC CHECKSUMS:
+  NemoContactPicker: e1cea241604a03600778cd81dc0a401eff010684
+
+COCOAPODS: 0.39.0
