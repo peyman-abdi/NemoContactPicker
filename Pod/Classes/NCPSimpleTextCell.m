@@ -6,9 +6,9 @@
 //
 //
 
-#import "SimpleTextCell.h"
+#import "NCPSimpleTextCell.h"
 
-@implementation SimpleTextCellData
+@implementation NCPSimpleTextCellData
 -(instancetype) initWithString:(NSString *)string {
 	self = [super initWithIdentifier:@"SimpleTextCell" nSelector:nil onObject:nil];
 	if (self) {
@@ -24,9 +24,10 @@
 }
 @end
 
-@implementation SimpleTextCell
+@implementation NCPSimpleTextCell
 
 - (void)awakeFromNib {
+	self.selectionStyle = UITableViewCellSelectionStyleNone;
 }
 
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated {
@@ -34,7 +35,7 @@
 }
 
 -(void) UpdateTableCellFromDataSource {
-	SimpleTextCellData* dataSource = (SimpleTextCellData*)self.DataSource;
+	NCPSimpleTextCellData* dataSource = (NCPSimpleTextCellData*)self.DataSource;
 	[self.TextView setText:dataSource.String];
 }
 

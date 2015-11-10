@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "NemoCoreTableCell.h"
 
-@interface SimpleTextCellData : NemoCoreTableCellData
+@interface NCPSimpleTextCellData : NemoCoreTableCellData
 @property (nonatomic, copy) NSString*	String;
 -(instancetype) initWithString:(NSString*)string;
 @end
 
-@interface SimpleTextCell : NemoCoreTableCell
+@interface NCPSimpleTextCell : NemoCoreTableCell
 @property (unsafe_unretained, nonatomic) IBOutlet UITextView *TextView;
 @end

@@ -9,11 +9,11 @@
 #import <UIKit/UIKit.h>
 #import "NemoCoreTableCell.h"
 
-@interface ButtonCellData : NemoCoreTableCellData
+@interface NCPButtonCellData : NemoCoreTableCellData
 @property (nonatomic, copy) NSString*	Title;
 -(instancetype) initWithTitle:(NSString*)title withSelector:(SEL)callback onObject:(id)object;
 @end
 
-@interface ButtonCell : NemoCoreTableCell
+@interface NCPButtonCell : NemoCoreTableCell
 @property (unsafe_unretained, nonatomic) IBOutlet UIButton *Button;
 @end

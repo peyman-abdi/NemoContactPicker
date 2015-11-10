@@ -6,11 +6,11 @@
 //
 //
 
-#import "ButtonCell.h"
+#import "NCPButtonCell.h"
 
-@implementation ButtonCellData
+@implementation NCPButtonCellData
 -(instancetype) initWithTitle:(NSString *)title withSelector:(SEL)callback onObject:(id)object {
-	self = [super initWithIdentifier:@"ButtonCell" nSelector:callback onObject:object];
+	self = [super initWithIdentifier:@"NCPButtonCell" nSelector:callback onObject:object];
 	if (self) {
 		self.Title = title;
 	}
@@ -18,7 +18,7 @@
 }
 @end
 
-@implementation ButtonCell
+@implementation NCPButtonCell
 
 - (void)awakeFromNib {
 }
@@ -32,7 +32,7 @@
 }
 
 -(void) UpdateTableCellFromDataSource {
-	ButtonCellData* dataSource = (ButtonCellData*)self.DataSource;
+	NCPButtonCellData* dataSource = (NCPButtonCellData*)self.DataSource;
 	[self.Button setTitle:dataSource.Title forState:UIControlStateNormal];
 	[self.Button setTitle:dataSource.Title forState:UIControlStateDisabled];
 	[self.Button setTitle:dataSource.Title forState:UIControlStateSelected];

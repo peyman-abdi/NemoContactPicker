@@ -7,23 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0019CF5576872278662D9068790F527B /* SimpleTextCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 94F5E5909C8161D9F55D997FD80B54E3 /* SimpleTextCell.xib */; };
+		0019CF5576872278662D9068790F527B /* NCPSimpleTextCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = 94F5E5909C8161D9F55D997FD80B54E3 /* NCPSimpleTextCell.xib */; };
 		0B3FB74C28CD61EE09376AABA984359A /* Pods-NemoContactPicker_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 902080892C53FDF5CC99C54FB41E63D2 /* Pods-NemoContactPicker_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0CF312BBB1199CC23CE6177DDCAB5FF2 /* SimpleTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C1C85CA69FED77C36AD47FFAEF9E2 /* SimpleTextCell.m */; };
+		0CF312BBB1199CC23CE6177DDCAB5FF2 /* NCPSimpleTextCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 355C1C85CA69FED77C36AD47FFAEF9E2 /* NCPSimpleTextCell.m */; };
 		10573AEE401A48DD3ABA3AFFFB577610 /* NemoCoreTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 530F2C0FF990856B0B3CBDDA1A793A0B /* NemoCoreTableCell.m */; };
 		1200E458BD8E9164C1ED0BEA0294960D /* NemoCoreTableCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BBF13053B0511AAE7931C9EDC3C2683 /* NemoCoreTableCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		18DEFE02894657ED2D290DEFBCDC404B /* Pods-NemoContactPicker_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D78C8C8117D16D57D66C0A0CAB32C6B /* Pods-NemoContactPicker_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		44B49620CC239895281E3A914B04C5F2 /* ButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CCCB844A2A147673AB8AC8DC7608DAAF /* ButtonCell.xib */; };
+		44B49620CC239895281E3A914B04C5F2 /* NCPButtonCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = CCCB844A2A147673AB8AC8DC7608DAAF /* NCPButtonCell.xib */; };
 		45747217ADBE2EDB3E7039BEF66F60EF /* Pods-NemoContactPicker_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D5342DDB2FAC08E79CDFCB627DD22B0 /* Pods-NemoContactPicker_Tests-dummy.m */; };
 		5057C1C7F161EE8BE8BF219885026C02 /* NemoContactPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D499B970630FF1546D5504A53606DE8E /* NemoContactPicker-dummy.m */; };
 		635CADF0D24241459ECB93289C39A235 /* Pods-NemoContactPicker_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BED0E0F09413D2744655BFE147A92C5 /* Pods-NemoContactPicker_Example-dummy.m */; };
-		675502FE62CBDFFFF8AEF7C0BAD34625 /* ButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC902370172F2F4698BF89C833BC1BD /* ButtonCell.m */; };
+		675502FE62CBDFFFF8AEF7C0BAD34625 /* NCPButtonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AC902370172F2F4698BF89C833BC1BD /* NCPButtonCell.m */; };
 		6DFDAE5E74B32889CF3B1238B98D6875 /* NemoContactPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C4F4ED7A277D368250EBB97872D49FD /* NemoContactPicker.m */; };
 		A6D1ED3FAA3C647FB7F21AAC2CABEF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		BD382A27CE55791224D72D0303BDCB8E /* NemoContactPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F0743A7E7EAEF287C318D183169FD4F /* NemoContactPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E1010E672E6161C224F586BC1C20522F /* NemoContactPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = E3B416053F820413483543D1A0ABE8AB /* NemoContactPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E20860B2F3A0BA90CC61CAE429BA1D0F /* ButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D9D79EB581B35FFE413F33B0D709A8 /* ButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EC4B062C92BC7CDC435A7B7B95CE00CB /* SimpleTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CA09299D937B3BBB29FF8CFF768150 /* SimpleTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E20860B2F3A0BA90CC61CAE429BA1D0F /* NCPButtonCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 19D9D79EB581B35FFE413F33B0D709A8 /* NCPButtonCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4B062C92BC7CDC435A7B7B95CE00CB /* NCPSimpleTextCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 39CA09299D937B3BBB29FF8CFF768150 /* NCPSimpleTextCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F328316F1BEFF8E2008806BF /* NCPContactCell.h in Headers */ = {isa = PBXBuildFile; fileRef = F328316C1BEFF8E2008806BF /* NCPContactCell.h */; };
+		F32831701BEFF8E2008806BF /* NCPContactCell.m in Sources */ = {isa = PBXBuildFile; fileRef = F328316D1BEFF8E2008806BF /* NCPContactCell.m */; };
+		F32831711BEFF8E2008806BF /* NCPContactCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F328316E1BEFF8E2008806BF /* NCPContactCell.xib */; };
 		F3A61E2183232A735B2FD8D7ABC0CBAC /* NemoContactPicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 7207C72A02DD4E8BBEC158EEC5C08C0D /* NemoContactPicker.bundle */; };
 		F52CEB622EC5A40E38EB8F83B6380577 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
 		FA12851EBDB2A718D1E5F3C1A342F18D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
@@ -58,14 +61,14 @@
 		0C59FF4F6C5BDC50DE7F995E5743DBB8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0D5342DDB2FAC08E79CDFCB627DD22B0 /* Pods-NemoContactPicker_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NemoContactPicker_Tests-dummy.m"; sourceTree = "<group>"; };
 		14D254D725E7D2B67738BEB1E7CD1274 /* NemoContactPicker.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = NemoContactPicker.xcconfig; sourceTree = "<group>"; };
-		19D9D79EB581B35FFE413F33B0D709A8 /* ButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ButtonCell.h; sourceTree = "<group>"; };
+		19D9D79EB581B35FFE413F33B0D709A8 /* NCPButtonCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NCPButtonCell.h; sourceTree = "<group>"; };
 		1C7526ADA7919A36F4EDE0800F87F11A /* Pods_NemoContactPicker_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NemoContactPicker_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1F0743A7E7EAEF287C318D183169FD4F /* NemoContactPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NemoContactPicker-umbrella.h"; sourceTree = "<group>"; };
 		2364238212365FC4A8467C8C1AB9B93D /* NemoContactPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = NemoContactPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BBF13053B0511AAE7931C9EDC3C2683 /* NemoCoreTableCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NemoCoreTableCell.h; sourceTree = "<group>"; };
 		349F8C7B1DE5E200267A3C4AE49082F8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		355C1C85CA69FED77C36AD47FFAEF9E2 /* SimpleTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SimpleTextCell.m; sourceTree = "<group>"; };
-		39CA09299D937B3BBB29FF8CFF768150 /* SimpleTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SimpleTextCell.h; sourceTree = "<group>"; };
+		355C1C85CA69FED77C36AD47FFAEF9E2 /* NCPSimpleTextCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NCPSimpleTextCell.m; sourceTree = "<group>"; };
+		39CA09299D937B3BBB29FF8CFF768150 /* NCPSimpleTextCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NCPSimpleTextCell.h; sourceTree = "<group>"; };
 		3D78C8C8117D16D57D66C0A0CAB32C6B /* Pods-NemoContactPicker_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NemoContactPicker_Example-umbrella.h"; sourceTree = "<group>"; };
 		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		418AF79DF316C2414D368ED74FBD516F /* Pods-NemoContactPicker_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NemoContactPicker_Tests.modulemap"; sourceTree = "<group>"; };
@@ -74,7 +77,7 @@
 		530F2C0FF990856B0B3CBDDA1A793A0B /* NemoCoreTableCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NemoCoreTableCell.m; sourceTree = "<group>"; };
 		535D155912FE228C6586F6F2C8556D9D /* Pods-NemoContactPicker_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NemoContactPicker_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		54F461AB25510F6465A576881FC3BBEF /* Pods-NemoContactPicker_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NemoContactPicker_Tests-resources.sh"; sourceTree = "<group>"; };
-		5AC902370172F2F4698BF89C833BC1BD /* ButtonCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ButtonCell.m; sourceTree = "<group>"; };
+		5AC902370172F2F4698BF89C833BC1BD /* NCPButtonCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NCPButtonCell.m; sourceTree = "<group>"; };
 		5B03500C7EF607F577C2AE04C59B5770 /* Pods-NemoContactPicker_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NemoContactPicker_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		5BED0E0F09413D2744655BFE147A92C5 /* Pods-NemoContactPicker_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-NemoContactPicker_Example-dummy.m"; sourceTree = "<group>"; };
 		5C4F4ED7A277D368250EBB97872D49FD /* NemoContactPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = NemoContactPicker.m; sourceTree = "<group>"; };
@@ -85,16 +88,19 @@
 		82230E660BB32593FDEBF9D2D1167304 /* NemoContactPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NemoContactPicker-prefix.pch"; sourceTree = "<group>"; };
 		838F87D68F67D97162252027A0E9AC95 /* Pods-NemoContactPicker_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NemoContactPicker_Example-resources.sh"; sourceTree = "<group>"; };
 		902080892C53FDF5CC99C54FB41E63D2 /* Pods-NemoContactPicker_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-NemoContactPicker_Tests-umbrella.h"; sourceTree = "<group>"; };
-		94F5E5909C8161D9F55D997FD80B54E3 /* SimpleTextCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = SimpleTextCell.xib; sourceTree = "<group>"; };
+		94F5E5909C8161D9F55D997FD80B54E3 /* NCPSimpleTextCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = NCPSimpleTextCell.xib; sourceTree = "<group>"; };
 		98BEDE612B8070E3CE02D4DC1C56FEA2 /* Pods-NemoContactPicker_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-NemoContactPicker_Example.modulemap"; sourceTree = "<group>"; };
 		9DA1D6DEEA663ADA4B64BD6839B715E7 /* Pods-NemoContactPicker_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NemoContactPicker_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		A55A0AB2AA23A01137B8FCEBEE29A3AB /* Pods-NemoContactPicker_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-NemoContactPicker_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BFE285FA2B13A25282665F88C61C26F1 /* Pods-NemoContactPicker_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-NemoContactPicker_Example-frameworks.sh"; sourceTree = "<group>"; };
-		CCCB844A2A147673AB8AC8DC7608DAAF /* ButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = ButtonCell.xib; sourceTree = "<group>"; };
+		CCCB844A2A147673AB8AC8DC7608DAAF /* NCPButtonCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = NCPButtonCell.xib; sourceTree = "<group>"; };
 		D499B970630FF1546D5504A53606DE8E /* NemoContactPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NemoContactPicker-dummy.m"; sourceTree = "<group>"; };
 		D87E932A9A1A8564085501BF460E1B16 /* Pods-NemoContactPicker_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NemoContactPicker_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E3B416053F820413483543D1A0ABE8AB /* NemoContactPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = NemoContactPicker.h; sourceTree = "<group>"; };
+		F328316C1BEFF8E2008806BF /* NCPContactCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NCPContactCell.h; sourceTree = "<group>"; };
+		F328316D1BEFF8E2008806BF /* NCPContactCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NCPContactCell.m; sourceTree = "<group>"; };
+		F328316E1BEFF8E2008806BF /* NCPContactCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NCPContactCell.xib; sourceTree = "<group>"; };
 		FF010E81A9EE4200556AD3633CFE10AB /* Pods-NemoContactPicker_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-NemoContactPicker_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -173,16 +179,19 @@
 		51E9596C1A90A9C0A6F8EA6941F2EFE7 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				19D9D79EB581B35FFE413F33B0D709A8 /* ButtonCell.h */,
-				5AC902370172F2F4698BF89C833BC1BD /* ButtonCell.m */,
-				CCCB844A2A147673AB8AC8DC7608DAAF /* ButtonCell.xib */,
+				19D9D79EB581B35FFE413F33B0D709A8 /* NCPButtonCell.h */,
+				5AC902370172F2F4698BF89C833BC1BD /* NCPButtonCell.m */,
+				CCCB844A2A147673AB8AC8DC7608DAAF /* NCPButtonCell.xib */,
 				E3B416053F820413483543D1A0ABE8AB /* NemoContactPicker.h */,
 				5C4F4ED7A277D368250EBB97872D49FD /* NemoContactPicker.m */,
 				2BBF13053B0511AAE7931C9EDC3C2683 /* NemoCoreTableCell.h */,
 				530F2C0FF990856B0B3CBDDA1A793A0B /* NemoCoreTableCell.m */,
-				39CA09299D937B3BBB29FF8CFF768150 /* SimpleTextCell.h */,
-				355C1C85CA69FED77C36AD47FFAEF9E2 /* SimpleTextCell.m */,
-				94F5E5909C8161D9F55D997FD80B54E3 /* SimpleTextCell.xib */,
+				39CA09299D937B3BBB29FF8CFF768150 /* NCPSimpleTextCell.h */,
+				355C1C85CA69FED77C36AD47FFAEF9E2 /* NCPSimpleTextCell.m */,
+				94F5E5909C8161D9F55D997FD80B54E3 /* NCPSimpleTextCell.xib */,
+				F328316C1BEFF8E2008806BF /* NCPContactCell.h */,
+				F328316D1BEFF8E2008806BF /* NCPContactCell.m */,
+				F328316E1BEFF8E2008806BF /* NCPContactCell.xib */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -288,11 +297,12 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E20860B2F3A0BA90CC61CAE429BA1D0F /* ButtonCell.h in Headers */,
+				E20860B2F3A0BA90CC61CAE429BA1D0F /* NCPButtonCell.h in Headers */,
 				BD382A27CE55791224D72D0303BDCB8E /* NemoContactPicker-umbrella.h in Headers */,
 				E1010E672E6161C224F586BC1C20522F /* NemoContactPicker.h in Headers */,
+				F328316F1BEFF8E2008806BF /* NCPContactCell.h in Headers */,
 				1200E458BD8E9164C1ED0BEA0294960D /* NemoCoreTableCell.h in Headers */,
-				EC4B062C92BC7CDC435A7B7B95CE00CB /* SimpleTextCell.h in Headers */,
+				EC4B062C92BC7CDC435A7B7B95CE00CB /* NCPSimpleTextCell.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +430,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F32831711BEFF8E2008806BF /* NCPContactCell.xib in Resources */,
 				F3A61E2183232A735B2FD8D7ABC0CBAC /* NemoContactPicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,13 +450,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				675502FE62CBDFFFF8AEF7C0BAD34625 /* ButtonCell.m in Sources */,
-				44B49620CC239895281E3A914B04C5F2 /* ButtonCell.xib in Sources */,
+				675502FE62CBDFFFF8AEF7C0BAD34625 /* NCPButtonCell.m in Sources */,
+				44B49620CC239895281E3A914B04C5F2 /* NCPButtonCell.xib in Sources */,
 				5057C1C7F161EE8BE8BF219885026C02 /* NemoContactPicker-dummy.m in Sources */,
 				6DFDAE5E74B32889CF3B1238B98D6875 /* NemoContactPicker.m in Sources */,
+				F32831701BEFF8E2008806BF /* NCPContactCell.m in Sources */,
 				10573AEE401A48DD3ABA3AFFFB577610 /* NemoCoreTableCell.m in Sources */,
-				0CF312BBB1199CC23CE6177DDCAB5FF2 /* SimpleTextCell.m in Sources */,
-				0019CF5576872278662D9068790F527B /* SimpleTextCell.xib in Sources */,
+				0CF312BBB1199CC23CE6177DDCAB5FF2 /* NCPSimpleTextCell.m in Sources */,
+				0019CF5576872278662D9068790F527B /* NCPSimpleTextCell.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

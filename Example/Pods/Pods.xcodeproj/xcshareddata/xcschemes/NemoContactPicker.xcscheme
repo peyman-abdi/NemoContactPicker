@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '2904B873E910DC05B524C8DA'
+               BlueprintIdentifier = 'C5F757CE03611A1F33018000'
                BlueprintName = 'NemoContactPicker'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'NemoContactPicker.framework'>

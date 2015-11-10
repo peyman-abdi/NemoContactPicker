@@ -7,7 +7,8 @@
 //
 
 @import UIKit;
+#import <NemoContactPicker/NemoContactPicker.h>
 
-@interface NCViewController : UIViewController
+@interface NCViewController : UIViewController <NemoContactPickerDelegate>
 
 @end
