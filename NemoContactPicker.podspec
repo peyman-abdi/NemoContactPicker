@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = "NemoContactPicker"
-s.version          = "0.1.2"
+s.version          = "0.1.3"
 s.summary          = "A simple contact picker in a table view for iOS"
 
 s.description      = <<-DESC
@@ -17,9 +17,7 @@ s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
-	'NemoContactPicker' => ['Pod/Assets/*.png']
+	'NemoContactPicker' => ['Pod/Assets/*.png', 'Pod/Classes/*.xib']
 }
-
-s.resources = ["Pod/Classes/*.xib"]
 
 end
