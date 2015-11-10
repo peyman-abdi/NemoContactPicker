@@ -17,6 +17,9 @@ s.requires_arc = true
 
 s.source_files = 'Pod/Classes/**/*'
 s.resource_bundles = {
-'NemoContactPicker' => ['Pod/Assets/*.png']
+	'NemoContactPicker' => ['Pod/Assets/*.png']
 }
+
+s.resources = ["Pod/Classes/*.xib"]
+
 end
